@@ -1,4 +1,4 @@
-# Petshop
+# Petshop :dog:
 
 Este é um projeto de um petshop desenvolvido como parte do curso [Proz]. O petshop possui 5 páginas, seguindo um layout de exemplo disponível no Canva.
 
