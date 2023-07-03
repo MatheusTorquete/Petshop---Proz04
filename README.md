@@ -35,8 +35,6 @@ Este é um projeto de um petshop desenvolvido como parte do curso [Proz]. O pets
 ## Participantes
 Matheus Torquete
 <br>
-Matheus Franco
-<br>
 Matheus Henrique
 <br>
 Raisa Baccilieri
