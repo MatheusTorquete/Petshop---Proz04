@@ -4,51 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/contato.css">
 </head>
 <body>
     <header>
-        <div>
-            <img src="./img/logo.png" alt="logo petshop">
-            <p>Logo Petshop</p>
+        <div class="logo">
+            <img id="pata" src="./img/logo.png" alt="logo petshop">
+            <!-- <p id="p1">ProzPets</p> -->
         </div>
-
+        
         <nav>
-            <ul>
-                <a target="_blank" href="./index.html"><li>Home</li></a>
-                <a target="_blank" href="./sobre.html"><li>Sobre</li></a>
-                <a target="_blank" href="./servicos.html"><li>Serviços</li></a>
-                <a target="_blank" href="./veterinario.html"><li>Veterinário</li></a> 
-                <a target="_blank" href="./contato.html"><li>Contato</li></a> 
+            <ul class="nav">
+                <a id="link" target="_blank" href="./index.html"><li>Home</li></a>
+                <a id="link" target="_blank" href="./sobre.html"><li>Sobre</li></a>
+                <a id="link" target="_blank" href="./servicos.html"><li>Serviços</li></a>
+                <a id="link" target="_blank" href="./veterinario.html"><li>Veterinário</li></a> 
+                <a id="link" target="_blank" href="/contato.html"><li>Contato</li></a> 
             </ul>
         </nav>
     </header>
 
+    
+
         <main>
-        <section>
+            <section>
                 <h1>Entre em contato conosco!</h1>
-                <img src="./img/imagem_contato.jpeg" alt="imagem contato" width="20%">
+                
+                    <img id="img-contato" src="./img/imagem_contato.jpeg" alt="imagem contato" width="30%">
+                
                 <form action="">
                     <label for="username">Digite seu nome</label>
-                    <input id="username" type="text" name="username">
+                    <input id="username" type="text" name="username" required>
                     <br>
                     <label for="email">Digite seu email</label>
-                    <input id="email" type="text" name="email">
+                    <input id="email" type="email" name="email" required>
                     <br>
                     <label for="mensagem">Envie sua mensagem</label>
                     <br>
-                <textarea id="mensagem" name="mensagem" rows="5" cols="35">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <textarea id="mensagem" name="mensagem" rows="5" cols="30">Digite aqui sua mensagem.
                 </textarea>
                     <button type="submit">Enviar</button>
                 </form>
             </section>
         </main>
-
-    <footer>
-        <p>Endereço : Av.Glória do Senhor 155.</p>
-        <p>Email : contato@petshop.com</p>
-        <p>Telefone: (11)7788-4455</p>
-    </footer>
-
+        
+        <div>
+            <footer>
+                <p>
+                Av.Glória do Senhor 155.</p>
+                <p>
+                contato@petshop.com</p>
+                <p>
+                (11)7788-4455</p>
+            </footer>
+        </div>
 </body>
 </html>
