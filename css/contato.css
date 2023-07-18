@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    display: flex;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40pt;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+}
+
+#img-contato {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-right: 60px;
+    box-shadow: 2px 2px 2px rgb(154, 10, 236);
+
+}
+
+form {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(51, 117, 238);
+    box-shadow: 2px 2px 2px rgb(75, 5, 155);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+
+label, input, textarea, button {
+    display: block;
+    margin-bottom: 10px;
+    background-color: rgb(232, 240, 248);
+}
+
+label {
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(72, 127, 245);
+}
+
+button {
+    background-color: #5826E6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(243, 237, 237);
+    background-color: rgb(29, 123, 211);
+    padding: 10px;
+}
+
+footer p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        flex-direction: column;
+    }
+
+    h1, form {
+        width: 100%;
+    }
+}
