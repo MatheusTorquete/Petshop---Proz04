@@ -29,7 +29,8 @@ Este é um projeto de um petshop desenvolvido como parte do curso [Proz]. O pets
 ## Tecnologias Utilizadas
 
 - HTML
-- CSS (em construção)
+- CSS (Finalizado Parte 1 - Estilização)
+-- CSS (Em construção Flexibilidade)
 - JavaScript (em construção)
 
 ## Participantes
