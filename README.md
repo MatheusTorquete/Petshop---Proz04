@@ -6,20 +6,24 @@ Este é um projeto de um petshop desenvolvido como parte do curso [Proz]. O pets
 
 1. **Página Inicial**: Apresentação do petshop, informações gerais e destaques dos serviços oferecidos.
 
-![Petshop_PROZ - inicial](https://github.com/MatheusTorquete/proz-grupo4/assets/94683422/e9ebdd80-412b-4e4d-9a48-47e40bcf7ecc)
+![image](https://github.com/MatheusTorquete/Petshop---Proz04/assets/94683422/7734c08f-67b5-4213-8b9c-d502b00f19a8)
+
 
 
 2. **Sobre Nós**: Informações sobre a equipe do petshop, história, valores e missão da empresa.
 
-![Petshop_PROZ - sobre nós](https://github.com/MatheusTorquete/proz-grupo4/assets/94683422/423dbe57-b9fc-4d02-93a6-57ab280855c6)
+![image](https://github.com/MatheusTorquete/Petshop---Proz04/assets/94683422/7e145f20-0a36-43b4-9b89-f401f4e5a2c8)
+
 
 3. **Nossos Serviços**: Lista de produtos disponíveis no petshop, com descrição, preço e opções de compra.
 
-![Petshop_PROZ - nossos serviços](https://github.com/MatheusTorquete/proz-grupo4/assets/94683422/d1bd2a36-4938-4c43-89ed-a125a5f3cfc3)
+![image](https://github.com/MatheusTorquete/Petshop---Proz04/assets/94683422/d048db89-59f0-4549-bb59-2fe9d2d1bb63)
+
 
 4. **Atendimento**: Formulário de agendamento de serviços, permitindo que os clientes escolham uma data e hora conveniente. 
 
-![Petshop_PROZ - atendimento](https://github.com/MatheusTorquete/proz-grupo4/assets/94683422/2e889a0c-36f6-4961-8abc-4332b42de825)
+![image](https://github.com/MatheusTorquete/Petshop---Proz04/assets/94683422/f0e722c8-4dd2-41e6-b53e-a84ae6d49fd0)
+
 
 5. **Contato**: Formulário de contato para os clientes enviarem mensagens ou fazerem perguntas.
 
