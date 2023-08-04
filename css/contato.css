@@ -9,40 +9,38 @@ section {
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 40pt;
+    font-size: 2.5rem;
     color: white;
     background-size: cover;
     background-position: center;
     text-align: center;
     flex: 1;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 #img-contato {
-    border: 1px solid gray;
-    border-radius: 10px;
-    margin-right: 60px;
-    box-shadow: 2px 2px 2px rgb(154, 10, 236);
-
+    border: 0.0625rem solid gray;
+    border-radius: 0.625rem;
+    margin-right: 3.75rem;
+    box-shadow: 0.125rem 0.125rem 0.125rem rgb(154, 10, 236);
 }
 
 form {
     flex: 1;
-    padding: 20px;
-    border: 1px solid black;
-    border-radius: 10px;
+    padding: 1.25rem;
+    border: 0.0625rem solid black;
+    border-radius: 0.625rem;
     background-color: rgb(51, 117, 238);
-    box-shadow: 2px 2px 2px rgb(75, 5, 155);
+    box-shadow: 0.125rem 0.125rem 0.125rem rgb(75, 5, 155);
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 20px;
-    
+    margin-right: 1.25rem;
 }
 
 label, input, textarea, button {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     background-color: rgb(232, 240, 248);
 }
 
@@ -55,28 +53,26 @@ label {
 button {
     background-color: #5826E6;
     color: white;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     border: none;
     cursor: pointer;
 }
-
-
 
 footer {
     position: relative;
     display: flex;
     justify-content: space-between;
-    border: 1px solid rgb(243, 237, 237);
+    border: 0.0625rem solid rgb(243, 237, 237);
     background-color: rgb(29, 123, 211);
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 footer p {
     font-style: italic;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
     section {
         flex-direction: column;
     }
