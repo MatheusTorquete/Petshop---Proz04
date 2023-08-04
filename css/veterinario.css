@@ -1,48 +1,44 @@
-* {
+*{
     font-family: 'Courier New', Courier, monospace;
-}
-
+  }
+  
 .sec {
     display: flex;
-    width: 39.9rem;
-    height: 31.25rem;
+    width: 638px;
+    height: 500px;
     flex-direction: column;
     color: #3B3B3B;
     font-family: Inter;
-    font-size: 2.089rem;
+    font-size: 33.608px;
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
     letter-spacing: -0.37px;
     background-color: rgb(136, 210, 245);
-    border-radius: 2.083rem;
+    border-radius: 20px;
     box-sizing: border-box;
-    box-shadow: 0.156rem 0.156rem 0.156rem rgb(12, 64, 236);
-    margin: 1rem;
-    padding: 1rem;
+    box-shadow: 3px 3px 3px rgb(12, 64, 236); 
 }
 
 .sec h1 {
     color: #FFF4E1;
     font-family: Inter;
-    font-size: 2.063rem;
+    font-size: 41.254px;
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
     letter-spacing: -0.454px;
     text-align: center;
-    margin: 0;
-    padding: 1rem 0;
 }
 
 .sec p {
-    margin: 1.25rem;
+    margin: 20px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 16pt;
 }
 
 img {
-    border-radius: 2.5rem;
+    border-radius: 40px;
     width: 90%;
     height: 80%;
 }
@@ -50,11 +46,11 @@ img {
 .img {
     display: flex;
     float: right;
-    margin-left: 5.208rem;
+    margin-left: 100px;
+   
 }
 
 footer {
-    display: flex;
     align-items: center;
-    margin-top: 2.5rem;
+
 }
