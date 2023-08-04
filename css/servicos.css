@@ -1,49 +1,84 @@
 *{
     font-family: 'Courier New', Courier, monospace;
-}
+  }
 
 h1 {
-    font-size: 2rem;
+    font-size: 30pt;
     font-family: cursive;
     text-align: center;
+    margin-left: center;
 }
+
+/* h1:hover {
+    text-transform: uppercase;
+    color: rgb(16, 56, 167);
+} */
 
 h2 {
     color: aliceblue;
+    
 }
 
 article {
-    width: 25rem;
-    height: 18.75rem;
+    width: 400px;
+    height: 300px;
     display: inline-block;
     box-sizing: border-box;
-    margin: 1rem;
 }
 
 article img {
-    width: 20rem;
-    border-radius: 1rem;
-    box-shadow: 0.125rem 0.125rem 0.125rem rgb(5, 21, 92);
-}
-
-.serviços1, .serviços2, .serviços3 {
-    border-radius: 1rem;
-    text-align: center;
-    padding: 1rem;
-    background-color: rgb(135, 191, 243);
-    margin-left: 2.5rem;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(5, 21, 92);
+    
 }
 
 .serviços1 {
-    margin-top: 2rem;
+ /* border: 1px solid blue; */
+ border-radius: 10px;
+ text-align: center;
 }
 
-.texto1, .texto2, .texto3 {
-    border-radius: 1rem;
-    padding: 1rem;
+.texto1 {
+    border-radius: 10px;
+    padding: 10px;
     text-align: center;
-    width: 18.75rem;
+    width: 300px;
     background-color: rgb(135, 191, 243);
-    margin-left: 2.5rem;
-    margin-top: 2rem;
+    margin-left: 40px;
+    padding-top: 20px
 }
+
+.texto2 {
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    background-color: rgb(135, 191, 243);
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.texto3 {
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    background-color: rgb(135, 191, 243);
+    margin-left: 40px;
+    padding-top: 20px
+}
+
+
+.serviços2 {
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.serviços3 {
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    text-align: center;
+}
+
