@@ -1,170 +1,148 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
-  }
-  body {
-      padding: 0;
-      margin: 0;
-      background-color: #68A1D7;
-  }
-  
-  header {
-      display: flex;
-      justify-content: space-between;
-  }
-  
-  /* barra de navegação item lado a lado */
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #68A1D7;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#link {
+  font-size: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px #4f2bf1;
+}
+
+#link:hover {
+  background-color: rgb(72, 72, 245);
+  transform: scale(1.2);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+#pata {
+  width: 1.5rem;
+  margin-left: 1rem;
+}
+
+h1 {
+  color: #fff;
+  padding-inline-start: 2.5rem;
+  font-size: 2.5rem;
+}
+
+#osso {
+  max-width: 80%;
+  padding-inline-start: 2.5rem;
+}
+
+#p2 {
+  margin: 10px;
+  padding-inline: 2.5rem;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.img_principal {
+  max-width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#cachorro1 {
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.p3 {
+  color: #fff;
+  text-align: center;
+}
+
+footer {
+  margin-top: 1.5rem;
+  padding: 0 10%;
+  color: #fff;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
   .nav {
-      display: flex;
-      align-items: center;
-      gap: 40px;
-      justify-content: right;
-      padding-right: 50px;
-      list-style: none;
+    justify-content: center;
+    padding: 0;
   }
-  
-  main {
-      display: flex;
-      justify-content: space-evenly;
-  }
-  
-  #link
-  {
-      font-size: larger;
-      color: #fff;
-      text-decoration: none;
-      box-shadow: 5px 5px 5px #4f2bf1;
-  
-  }
-  
-  #link:hover {
-      background-color: rgb(72, 72, 245);
-      transform: scale(1.2);
-  }
-  
-  .logo {
-      display: flex;
-      align-items: center;
-  }
-  
+
   #pata {
-      width: 80px;
-      padding-bottom: 20px;
-      margin-left: 30px;
+    width: 1rem;
   }
-  
-  h1 {
-      color: #fff;
-      padding-inline-start: 45px;
-      margin: 0;
-  }
-  
+
   #osso {
-      max-width: 300px;
-      padding-inline-start: 45px;
+    max-width: 80%;
   }
-  
+
+  h1 {
+    font-size: 2rem;
+  }
+
   #p2 {
-      margin: 10px;
-      padding-inline: 45px;
-      color: #fff;
-      font-size: x-large;
+    font-size: 1rem;
   }
-  
-  main {
-      display: flex;
-      justify-content: space-evenly;
-      
+
+  .p3 {
+    font-size: 0.875rem;
   }
-  
-  
-  .img_principal {
-      max-width: 454px;
-      max-height: 450px;
-      object-fit: cover;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      border-radius: 5px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-      
+}
+
+@media (max-width: 480px) {
+  #pata {
+    width: 0.75rem;
   }
-  
-  
-  #cachorro1 {
-      border-radius: 20px;
-      border: 1px solid black;
+
+  #osso {
+    max-width: 60%;
   }
-  
-  .p3{
-      color: #fff;
-      text-align: center;
+
+  h1 {
+    font-size: 1.5rem;
   }
-  
-  footer {
-      margin-top: 110px;
-      padding-left: 36%;
-      color: #fff;
+
+  #p2 {
+    font-size: 0.875rem;
   }
-  
-  /* parte responsividade */
-   @media (max-width: 768px) {
-      .logo {
-        justify-content: center;
-      }
-    
-      .nav {
-        justify-content: center;
-        padding: 0;
-      }
-    
-      #pata {
-        width: 60px;
-      }
-    
-      #osso {
-        max-width: 80%;
-      }
-    
-      h1 {
-        font-size: 32px;
-      }
-    
-      #p2 {
-        font-size: 18px;
-      }
-    
-      .content {
-        margin-top: 10px;
-      }
-    
-      .p3 {
-        font-size: 16px;
-      }
-    }
-    
-    @media (max-width: 480px) {
-      #pata {
-        width: 40px;
-      }
-    
-      #osso {
-        max-width: 60%;
-      }
-    
-      h1 {
-        font-size: 24px;
-      }
-    
-      #p2 {
-        font-size: 16px;
-      }
-    
-      .p3 {
-        font-size: 14px;
-      }
-    }
-    
-  
-  
-  
+
+  .p3 {
+    font-size: 0.75rem;
+  }
+}
