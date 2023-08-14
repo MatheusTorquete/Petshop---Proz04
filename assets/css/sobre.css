@@ -1,0 +1,158 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  main {
+    display: flex;
+}
+
+section {
+    display: flex;
+    text-align: center;
+}
+
+#pata {
+    cursor: pointer;
+}
+
+#dogsobre {
+    max-width: 400px;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 10px 10px 10px black;
+    background-color: rgb(247, 201, 201);
+    box-sizing: border-box;
+    max-width: 40%;
+    
+}
+
+.sobre {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 50%;
+    font-size: 20pt;
+    
+    
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+#psobre {
+   font-style: italic;
+   margin-left: 35px;
+   color: #fff;
+}
+
+#rodape {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+
+/* parte responsividade */
+@media (max-width: 768px) {
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #dogsobre {
+        width: 80%;
+    }
+
+    .sobre {
+        max-width: 80%;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    #text {
+        font-size: 24px;
+    }
+
+    #psobre {
+        font-size: 14px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Adicionando um novo estilo para o menu responsivo */
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1;
+    }
+    
+    .nav.show {
+        display: flex;
+    }
+    
+    .nav a {
+        margin: 10px;
+    }
+  }
