@@ -33,9 +33,10 @@ Este é um projeto de um petshop desenvolvido como parte do curso [Proz]. O pets
 ## Tecnologias Utilizadas
 
 - HTML
-- CSS (Finalizado Parte 1 - Estilização)
--- CSS (Em construção Flexibilidade)
-- JavaScript (em construção)
+- CSS (Finalizado Parte 2 - Estilização)
+-- CSS (Media Queyrs aplicados, iremos avançar um pouco mais.)
+- JavaScript (Manipulação do DOM, e Formulário Interativo, guardando as informações no Banco de dados do LocalStorage)
+- ( Iremos ver se colocamos mais interatividade do Javascript)
 
 ## Participantes
 Matheus Torquete
