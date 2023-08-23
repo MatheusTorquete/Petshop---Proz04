@@ -1,0 +1,21 @@
+html {
+    background-color: #e9d8bc;
+    background-image: url("../img/bg_comportamental.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: auto 100vh;
+}
+
+main {
+    padding: 5rem 5rem 0 5rem;
+}
+
+#resumo {
+    width: 50vw;
+    float: right;
+    text-align: center;
+}
+
+#resumo h1 {
+    margin-bottom: 2rem;
+}

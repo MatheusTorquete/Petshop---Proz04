@@ -1,0 +1,33 @@
+main {
+    background-image: url("../img/bg_veterinaria.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100vw auto;
+    min-height: 90vh;
+}
+
+#resumo {
+    width: 40vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+#resumo h1 {
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    font-size: 1.5;
+    font-weight: bold;
+    border-color: #0097b2;
+    border-style: dotted;
+    background-color: white;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #49b3c5;
+    color: white;
+}
