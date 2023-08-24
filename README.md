@@ -1,42 +1,58 @@
-# Petshop :dog:
+# Petshop - DIRTY PAWS
 
-Este é um projeto de um petshop desenvolvido como parte do curso [Proz]. O petshop possui 5 páginas, seguindo um layout de exemplo disponível no Canva.
+Este o projeto integrador proposto pela PROZ. Densenvolver um site com até 5 páginas, com o conteúdo aprendido no curso
+HTML - CSS & Javascript.
+
+O petshop possui 5 páginas, seguindo um layout de exemplo disponível no Canva.
 
 ## Páginas
 
 1. **Página Inicial**: Apresentação do petshop, informações gerais e destaques dos serviços oferecidos.
 
-![image](https://github.com/MatheusTorquete/Petshop---Proz04/assets/94683422/7734c08f-67b5-4213-8b9c-d502b00f19a8)
+![Alt text](assets/img/Index.png)
 
 
 
-2. **Sobre Nós**: Informações sobre a equipe do petshop, história, valores e missão da empresa.
+2. **Medicina Veterinária**: Parte em que o nosso cliente pode realizar um preenchimento de formulário para entrar em contato conosco.
 
-![image](https://github.com/MatheusTorquete/Petshop---Proz04/assets/94683422/7e145f20-0a36-43b4-9b89-f401f4e5a2c8)
+![Alt text](<assets/img/veterinario exemplo.png>)
 
-
-3. **Nossos Serviços**: Lista de produtos disponíveis no petshop, com descrição, preço e opções de compra.
-
-![image](https://github.com/MatheusTorquete/Petshop---Proz04/assets/94683422/d048db89-59f0-4549-bb59-2fe9d2d1bb63)
+## Abrindo o formulário de preenchimento.
+![Alt text](<assets/img/Formulario - medicina veterinaria.png>)
 
 
-4. **Atendimento**: Formulário de agendamento de serviços, permitindo que os clientes escolham uma data e hora conveniente. 
-
-![image](https://github.com/MatheusTorquete/Petshop---Proz04/assets/94683422/f0e722c8-4dd2-41e6-b53e-a84ae6d49fd0)
 
 
-5. **Contato**: Formulário de contato para os clientes enviarem mensagens ou fazerem perguntas.
+3. **SPA**: Lista de produtos disponíveis no petshop, com descrição.
 
-![Petshop_PROZ - contato](https://github.com/MatheusTorquete/proz-grupo4/assets/94683422/1db802f6-e7cd-4be1-87a5-ba0c5c982c44)
+## SPA Principal
+![Alt text](<assets/img/spa - exemplo.png>)
+
+## Hiegene - Descrição
+![Alt text](<assets/img/spa - higiene.png>)
+
+## SPA - Descrição
+![Alt text](<assets/img/spa - descricao.png>)
+
+## Estética - Descrição
+![Alt text](<assets/img/spa - estetica.png>)
+
+
+4. **Adoção**: Em nossa página de adoção disponibilizamos imagens dos animais disponíveis e clicando em Quero adotar leva ao site para realizar o cadastramento. 
+
+![Alt text](assets/img/adocao.png)
+
+
+5. **Orientação Comportamental**: Página destinada a ensinamentos para os donos de seus animais.
+
+![!\[Petshop_PROZ - contato\](https://github.com/MatheusTorquete/proz-grupo4/assets/94683422/1db802f6-e7cd-4be1-87a5-ba0c5c982c44)](<assets/img/Orientacao comportamental.png>)
 
 
 ## Tecnologias Utilizadas
 
 - HTML
-- CSS (Finalizado Parte 2 - Estilização)
--- CSS (Media Queyrs aplicados, iremos avançar um pouco mais.)
+- CSS (Finalizado)
 - JavaScript (Manipulação do DOM, e Formulário Interativo, guardando as informações no Banco de dados do LocalStorage)
-- ( Iremos ver se colocamos mais interatividade do Javascript)
 
 ## Participantes
 Matheus Torquete
