@@ -45,6 +45,18 @@ const submit = (event) => {
     return;
   }
 
+ 
+  const formData = {
+    name: name,
+    email: email,
+    phone: phone,
+    animal: animal,
+    species: species
+  };
+
+  
+  localStorage.setItem('formData', JSON.stringify(formData));
+
   console.log('--- FORM DATA');
   console.log('name', name);
   console.log('email', email);
