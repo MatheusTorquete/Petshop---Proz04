@@ -39,17 +39,17 @@ footer {
 }
 
 .service-container.higiene {
-  background: url('../img/spa-higiene.jpg') no-repeat center;
+  background: url("../img/spa-higiene.jpg") no-repeat center;
   background-size: cover;
 }
 
 .service-container.spa {
-  background: url('../img/spa-spa.jpg') no-repeat center;
+  background: url("../img/spa-spa.jpg") no-repeat center;
   background-size: cover;
 }
 
 .service-container.estetica {
-  background: url('../img/spa-estetica.jpg') no-repeat center;
+  background: url("../img/spa-estetica.jpg") no-repeat center;
   background-size: cover;
 }
 

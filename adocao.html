@@ -1,46 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="PT-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>DirtyPaws - Ado&ccedil;&atilde;o</title>
-        <link rel="icon" type="image/x-icon" href="./assets/img/paws.svg" />
-        
-        <script src="./assets/js/header_footer.js" type="module" defer></script>
+    <title>DirtyPaws - Ado&ccedil;&atilde;o</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/paws.svg" />
 
-        <link rel="stylesheet" href="./assets/css/default.css" />
-        <link rel="stylesheet" href="./assets/css/header_footer.css" />
-        <link rel="stylesheet" href="./assets/css/adocao.css" />
-    </head>
+    <script src="./assets/js/header_footer.js" type="module" defer></script>
 
-    <body>
-        <header></header>
+    <link rel="stylesheet" href="./assets/css/default.css" />
+    <link rel="stylesheet" href="./assets/css/header_footer.css" />
+    <link rel="stylesheet" href="./assets/css/adocao.css" />
 
-        <main>
-            <section>
-                <div id="resumo">
-                    <h1>Ado&ccedil;&atilde;o</h1>
-                    <p>
-                        Nós acreditamos que todo animal merece um lar, e nesse
-                        exato momento existem milhares deles esperando por um.
-                        Faça a diferença e transforme uma vida.
-                        <br />
-                        Afinal, amigo não se compra.
-                    </P>
 
-                    <h2>Quero Adotar</h2>
-                    <p>
-                        <a href="https://www.amigonaosecompra.com.br/quero-adotar" target="_blank">
-                            https://www.amigonaosecompra.com.br/quero-adotar
-                        </a>
-                    </p>
-                </div>
-            </section>
-        </main>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css" />
+  </head>
 
-        <footer></footer>
-    </body>
+  <body>
+    <header></header>
+
+    <main>
+      <section>
+        <h1>Ado&ccedil;&atilde;o</h1>
+        <div id="resumo">
+          <p>
+            Nós acreditamos que todo animal merece um lar, e nesse exato momento
+existem milhares deles esperando por um. Faça a diferença e transforme uma vida. Afinal, amigo não se compra.
+          </p>
+
+          <div class="glide-container">
+            <div class="glide">
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  <li class="glide__slide">
+                    <img src="./assets/img/adocao-carousel/001.png" alt="">
+                  </li>
+
+                  <li class="glide__slide">
+                    <img src="./assets/img/adocao-carousel/002.png" alt="">
+                  </li>
+
+                  <li class="glide__slide">
+                    <img src="./assets/img/adocao-carousel/003.png" alt="">
+                  </li>
+
+                  <li class="glide__slide">
+                    <img src="./assets/img/adocao-carousel/004.png" alt="">
+                  </li>
+
+                  <li class="glide__slide">
+                    <img src="./assets/img/adocao-carousel/005.png" alt="">
+                  </li>
+
+                  <li class="glide__slide">
+                    <img src="./assets/img/adocao-carousel/006.png" alt="">
+                  </li>
+
+                  <li class="glide__slide">
+                    <img src="./assets/img/adocao-carousel/007.png" alt="">
+                  </li>
+
+                  <li class="glide__slide">
+                    <img src="./assets/img/adocao-carousel/008.png" alt="">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <a
+            class="quero-adotar"
+            href="https://www.amigonaosecompra.com.br/quero-adotar"
+            target="_blank"
+          >
+            Quero Adotar
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <script>
+      new Glide('.glide', {
+        type: 'carousel',
+        autoplay: 3000,
+        animationDuration: 2000,
+        animationTimingFunc: 'ease-in-out',
+      }).mount()
+    </script>
+  </body>
 </html>

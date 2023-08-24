@@ -1,35 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="PT-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>DirtyPaws</title>
-        <link rel="icon" type="image/x-icon" href="./assets/img/paws.svg" />
+    <title>DirtyPaws</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/paws.svg" />
 
-        <script src="./assets/js/header_footer.js" type="module" defer></script>
+    <script src="./assets/js/header_footer.js" type="module" defer></script>
 
-        <link rel="stylesheet" href="./assets/css/default.css" />
-        <link rel="stylesheet" href="./assets/css/header_footer.css" />
-        <link rel="stylesheet" href="./assets/css/index.css" />
-    </head>
+    <link rel="stylesheet" href="./assets/css/default.css" />
+    <link rel="stylesheet" href="./assets/css/header_footer.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
 
-    <body>
-        <header></header>
+  <body>
+    <header></header>
 
-        <main>
-            <section>
-                <p>
-                    O serviço Leva & Traz dispõe de conforto e segurança durante
-                    o transporte, mantendo os animais de todos os portes bem
-                    como os braquicefálicos acomodados e climatizados,
-                    garantindo também o bem estar.
-                </p>
-            </section>
-        </main>
+    <main>
+      <section id="landing">
+        <p>
+          O serviço Leva & Traz dispõe de conforto e segurança durante o
+          transporte, mantendo os animais de todos os portes bem como os
+          braquicefálicos acomodados e climatizados, garantindo também o bem
+          estar.
+        </p>
 
-        <footer></footer>
-    </body>
+        <a href="javascript:openForm()">Agendar Transporte</a>
+      </section>
+
+      <section id="form-container" class="hidden">
+        <a id="close" href="javascript: closeForm()">X</a>
+
+        <div class="form-box">
+          <form id="form" name="form">
+            <input required id="name" type="text" placeholder="Nome" />
+            <input required id="email" type="email" placeholder="E-mail" />
+            <input id="phone" type="text" placeholder="Telefone" />
+            <input id="animal" type="text" placeholder="Nome do animal" />
+
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+
+        <div class="message">
+          <p>
+            Recebemos o seu pedido e retornaremos com a confirmação de sua
+            reserva o mais breve possível!
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <script src="./assets/js/form.js"></script>
+  </body>
 </html>

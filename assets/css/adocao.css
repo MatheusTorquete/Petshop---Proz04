@@ -1,29 +1,97 @@
 * {
-    color: #faff0e;
+  color: #faff0e;
 }
 
 body {
-    background-color: #7ec0cc;
-    background-image: url("../img/bg_adocao.jpg");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: auto 100vh;
+  background-color: #7ec0cc;
+  background-image: url("../img/bg_adocao.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto 100vh;
 }
 
-
-main{
-    padding: 5rem 3rem;
+main {
+  padding: 0 10px;
+  overflow: visible;
 }
 
-#resumo  {
-    width: 50vw;
-    text-align: center;
+main section {
+  overflow: visible;
 }
 
-#resumo h1, #resumo h2 {
-    margin-bottom: 2rem;
+main h1 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 2em;
+  transform: translateY(-40px);
+}
+
+#resumo {
+  text-align: center;
+}
+
+#resumo p {
+  font-size: 1.2em;
+}
+
+#resumo h1,
+#resumo h2 {
+  margin-bottom: 2rem;
 }
 
 #resumo h2 {
-    margin-top: 5rem;
+  margin-top: 5rem;
+}
+
+main #resumo .quero-adotar {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+main #resumo .quero-adotar:hover {
+  background-color: #faff0e;
+  color: #7ec0cc;
+}
+
+main #resumo .glide-container {
+  width: 100%;
+  margin: 0 auto;
+}
+main #resumo .glide .glide__slide {
+  border-radius: 5px;
+  min-width: calc(95vw - 100px);
+}
+
+main #resumo .glide img {
+  width: calc(95vw - 100px);
+  height: calc(95vw - 100px);
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+@media (min-width: 960px) {
+  main {
+    padding: 0 3rem;
+  }
+
+  main #resumo {
+    width: 50vw;
+  }
+
+  main #resumo .glide-container {
+    width: 500px;
+  }
+  main #resumo .glide .glide__slide {
+    min-width: 300px;
+  }
+
+  main #resumo .glide img {
+    width: 300px;
+    height: 300px;
+  }
 }

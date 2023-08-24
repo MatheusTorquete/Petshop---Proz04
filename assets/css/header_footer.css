@@ -1,142 +1,136 @@
 /************* HEADER *************/
 
 header nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 header nav ul li {
-    flex: 1;
+  flex: 1;
 }
-
 
 header nav a {
-    display: block;
-    padding: 20px;
-    text-align: center;
+  display: block;
+  padding: 20px;
+  text-align: center;
 }
-
 
 header nav a:hover {
-    text-decoration: underline;
-    text-underline-offset: 8px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
-
 #nome {
-    min-width: fit-content;
+  min-width: fit-content;
 }
 
 #nome span {
-    display: block;
+  display: block;
 }
 
-
 #nome a :first-child {
-    font-family: 'Bodoni Moda', 'Times New Roman', Times, serif;
-    font-size: 4rem;
-    text-align: center;
-    text-transform: uppercase;
-    white-space: nowrap;
+  font-family: "Bodoni Moda", "Times New Roman", Times, serif;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 #nome a :last-child {
-    position: relative;
-    top: -1.5rem;
-    font-size: 1.5rem;
+  position: relative;
+  top: -1.5rem;
+  font-size: 1.5rem;
 }
 
 #nome a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #menu-mobile-icon {
-    display: none;
-    cursor: pointer;
+  display: none;
+  cursor: pointer;
 }
 
 #menu-mobile-icon img {
-    fill: gray;
-    width: 2rem;
-    position: absolute;
-    top: 1.5rem;
-    left: 1.5rem;
+  fill: gray;
+  width: 2rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
 }
 
 #close-menu-mobile-icon {
-    display: none;
-    cursor: pointer;
+  display: none;
+  cursor: pointer;
 }
 
 #close-menu-mobile-icon img {
-    width: 1.5rem;
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
 }
 
-@media (max-width: 68rem){
-    #nome a :first-child {
-        font-size: 3rem;
-    }
-    
-    #nome a :last-child {
-        font-size: 1.2rem;
-    }
+@media (max-width: 68rem) {
+  #nome a :first-child {
+    font-size: 3rem;
+  }
+
+  #nome a :last-child {
+    font-size: 1.2rem;
+  }
 }
 
+@media (max-width: 60rem) {
+  #nome a :first-child {
+    font-size: 2rem;
+  }
 
-@media (max-width: 60rem){
-    #nome a :first-child {
-        font-size: 2rem;
-    }
-    
-    #nome a :last-child {
-        font-size: 0.8rem;
-        top: -1rem;
-    }
+  #nome a :last-child {
+    font-size: 0.8rem;
+    top: -1rem;
+  }
 }
 
-@media (max-width: 54rem){
-    header nav ul {
-        flex-direction: column;
-    }
+@media (max-width: 54rem) {
+  header nav ul {
+    flex-direction: column;
+  }
 
-    header nav ul li {
-        width: 50%;
-        display: none;
-    }
+  header nav ul li {
+    width: 50%;
+    display: none;
+  }
 
-    #nome {
-        order: -1;
-        display: block;
-    }
+  #nome {
+    order: -1;
+    display: block;
+  }
 
-    #menu-mobile-icon {
-        display: block;
-    }
+  #menu-mobile-icon {
+    display: block;
+  }
 }
-
 
 .menu-visible {
-    background-color: lightgrey;
+  background-color: lightgrey;
 }
 
 .menu-visible > * {
-    display: block;
-    border-bottom:  1px dashed gray;
+  display: block;
+  border-bottom: 1px dashed gray;
 }
 
 .menu-visible #close-menu-mobile-icon {
-    display: block;
+  display: block;
 }
 
 /************* FOOTER *************/
 
 footer {
-    text-align: center;
-    font-size: 0.8rem;
-    padding: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 2rem;
 }
