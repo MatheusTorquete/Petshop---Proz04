@@ -132,5 +132,10 @@ header nav a:hover {
 footer {
   text-align: center;
   font-size: 0.8rem;
-  padding: 2rem;
+  padding: 1rem 3rem 0.5rem 3rem;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
 }
+
